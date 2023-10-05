@@ -13,7 +13,7 @@ struct data {
     int umur;
     bool kelamin;
 };
-const int max_amount = 10;
+const int max_amount = 20;
 struct data mahasiswa[max_amount];
 
 //menggeser data jika ada data yang kosong
@@ -220,20 +220,66 @@ void aplikasi () {
 int main () {
 
     //memasukkan data tambahan
-    mahasiswa[0].nama = "Hadi";
-    mahasiswa[0].nrp = "5027221069";
-    mahasiswa[0].umur = 17;
-    mahasiswa[0].kelamin = 1;
+    int L = 0;
+    mahasiswa[L].nama = "Hadi";
+    mahasiswa[L].nrp = "5027221069";
+    mahasiswa[L].umur = 17;
+    mahasiswa[L].kelamin = 1;
+    L++;
 
-    mahasiswa[1].nama = "Shanti";
-    mahasiswa[1].nrp = "5027221087";
-    mahasiswa[1].umur = 18;
-    mahasiswa[1].kelamin = 0;
+    mahasiswa[L].nama = "Shanti";
+    mahasiswa[L].nrp = "5027221087";
+    mahasiswa[L].umur = 18;
+    mahasiswa[L].kelamin = 0;
+    L++;
 
-    mahasiswa[2].nama = "Budi";
-    mahasiswa[2].nrp = "5027221032";
-    mahasiswa[2].umur = 19;
-    mahasiswa[2].kelamin = 1;
+    mahasiswa[L].nama = "Budi";
+    mahasiswa[L].nrp = "5027221032";
+    mahasiswa[L].umur = 19;
+    mahasiswa[L].kelamin = 1;
+    L++;
+
+    mahasiswa[L].nama = "Aji";
+    mahasiswa[L].nrp = "5027221050";
+    mahasiswa[L].umur = 20;
+    mahasiswa[L].kelamin = 1;
+    L++;
+
+    mahasiswa[L].nama = "Mira";
+    mahasiswa[L].nrp = "5027221029";
+    mahasiswa[L].umur = 18;
+    mahasiswa[L].kelamin = 0;
+    L++;
+
+    mahasiswa[L].nama = "Ao";
+    mahasiswa[L].nrp = "5027221028";
+    mahasiswa[L].umur = 18;
+    mahasiswa[L].kelamin = 0;
+    L++;
+
+    mahasiswa[L].nama = "Hantu";
+    mahasiswa[L].nrp = "5027221099";
+    mahasiswa[L].umur = 100;
+    mahasiswa[L].kelamin = 1;
+    L++;
+
+    mahasiswa[L].nama = "Budyi";
+    mahasiswa[L].nrp = "5027221051";
+    mahasiswa[L].umur = 19;
+    mahasiswa[L].kelamin = 1;
+    L++;
+
+    mahasiswa[L].nama = "Kucing";
+    mahasiswa[L].nrp = "5027221072";
+    mahasiswa[L].umur = 90;
+    mahasiswa[L].kelamin = 0;
+    L++;
+
+    mahasiswa[L].nama = "sateKelinci";
+    mahasiswa[L].nrp = "5027221100";
+    mahasiswa[L].umur = 29;
+    mahasiswa[L].kelamin = 1;
+    L++;
 
     aplikasi();
 
