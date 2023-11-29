@@ -1,4 +1,4 @@
-# Mata Kuliah Struktur Data Departemen IT 2023
+# Mata Kuliah Struktur Data Departemen IT ITS 2023
 + Nama : Muhammad Afif
 + NRP : 5027221032
 
